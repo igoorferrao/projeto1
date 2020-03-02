@@ -326,13 +326,11 @@ footer:last-of-type{
   }
 
   .header-container .conteudo-header{
-    border: 1px solid red;
     text-align: start;
     padding-left: 40px;
   }
 
   .header-container .conteudo-header p {
-    border: 1px solid red;
     padding-left: 0;
   }
 
