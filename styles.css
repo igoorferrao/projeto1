@@ -234,7 +234,7 @@ footer > svg {
 
 svg {
   width: 200px;
-  border: 1px solid red;
+  
 }
 
 .logo-footer {
@@ -521,7 +521,7 @@ footer:last-of-type{
   .container-footer {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    
   }
 
   .item {
