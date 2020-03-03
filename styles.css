@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 :root {
-  --testanto : #fff;
+  --testando : #fff;
 }
 
 /* INICIO Definições Gerais  */
@@ -177,19 +177,19 @@ footer > svg {
   text-decoration: none;
 }
 
-.item span  {
+.item div  {
   display: block;
   text-align: left;
   margin-bottom: 20px;
 }
 
-.item span img {
+.item div img {
   width: 20px;
   float: left;
   margin-right: 20px;
 }
 
-.item span p {
+.item div p {
   overflow: hidden;
 }
 
@@ -200,6 +200,7 @@ footer > svg {
   padding: 10px 15px ;
   border-radius: 50%;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .header-container > .imagem-mockup > img {   /* Definindo propriedades da imagem de Mockups */
@@ -215,6 +216,30 @@ footer > svg {
   text-align: center;
 }
 
+.content-main > .content > h2{
+  margin-bottom: 20px;
+}
+
+.content-main > .content > p {
+  color: hsl(208, 11%, 55%);
+}
+
+.main-footer > p:last-of-type{
+  color: white;
+  text-align: end;
+  margin: 0 40px 60px 0;
+}
+
+
+
+svg {
+  width: 200px;
+  border: 1px solid red;
+}
+
+.logo-footer {
+  margin-bottom: 40px;
+}
 
 /*Mobile Styles*/
 @media only screen and (max-width: 820px)  {
@@ -241,9 +266,7 @@ footer > svg {
     margin-bottom: 50px;
   }
 
-  .content-main > .content > h2{
-    margin-bottom: 20px;
-  }
+ 
 
   
 .content-main {
@@ -295,7 +318,7 @@ footer:last-of-type p {
 }
 
 footer:last-of-type {
-  color: var(--testanto);
+  color: var(--testando);
 }
 
 footer:last-of-type a:link,
@@ -368,16 +391,18 @@ footer:last-of-type{
     display: flex;
   }
   
+  footer p {
+    color: white;
+  }
   
   
   footer:last-of-type p {
-    color: #FFF;
     text-align: center;
     margin-bottom: 20px;
   }
   
   footer:last-of-type {
-    color: var(--testanto);
+    color: var(--testando);
   }
   
   footer:last-of-type a:link,
@@ -393,6 +418,9 @@ footer:last-of-type{
     padding-top: 10px;
   }
   
+  .item-1 > div:first-of-type {
+    padding-right: 300px;
+  }
 
 }
 
@@ -407,6 +435,11 @@ footer:last-of-type{
     padding: 60px;
   }
 
+  nav,
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   nav .try-button {
     padding: 10px 20px;
   }
@@ -483,17 +516,12 @@ footer:last-of-type{
     margin-bottom: 20px;
   }
 
-  .main-footer > p:last-of-type{
-    color: white;
-    text-align: end;
-    margin: 0 40px 60px 0
-  }
-
+  
 
   .container-footer {
-    display: flex;
     max-width: 1200px;
     margin: 0 auto;
+    border: 1px solid red;
   }
 
   .item {
@@ -530,6 +558,8 @@ footer:last-of-type{
   text-decoration:underline;
 }
 
-
+.conteudo-footer {
+  display: flex;
+}
 
 }
