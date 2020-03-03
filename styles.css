@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-body, button {    /* Definindo Tamanho da fonte, família e weight */
+body, .try-button {    /* Definindo Tamanho da fonte, família e weight */
   font-size: 18px;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -35,9 +35,11 @@ button {      /* Características de um botão */
   font-size: 15px;
   background-color: hsl(322, 100%, 66%);
   padding: 15px 60px;
+  border-radius: 50px;
 }
 
 a {
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -72,14 +74,22 @@ nav > .logo > img {  /* Acessando o Logo HUDDLE*/
   width: 180px;
 }
 
-nav > a > .try-button { /*Ajustando O botão de Try It Free*/
+nav a {
+  color: black;
+  
+  padding: 10px 20px
+}
+
+nav > .try-button { /*Ajustando O botão de Try It Free*/
   background-color: #fff;
   font-size: 13px;
   box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding-top: 10px;
 }
 
-nav > a > .try-button:hover, /* Ao colocar o mouse em cima para interação css*/
-nav > a > .try-button:visited {
+nav > .try-button:hover, /* Ao colocar o mouse em cima para interação css*/
+nav > .try-button:visited {
   background-color: rgb(250, 250, 250);
   cursor: pointer;
 } 
